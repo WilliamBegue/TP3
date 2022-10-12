@@ -1,0 +1,42 @@
+body
+{
+	background-color: black ;
+	text-align: center ;
+}
+h1 
+{
+	color: red ; 
+	font-family: red ; 
+	font-size: 2em ;
+}
+button
+{
+	background-color: red;
+	text-align : center;
+	width: 150px ;
+	padding: 10px 24px;
+	border-radius : 20px;
+	margin-bottom: 2px ;
+	border: 2px solid red ;
+	margin-top: 2% ;
+}
+button:hover
+{
+	color :red;
+	background-color: black;
+	border: 2px solid red ;
+}
+table
+{
+	text-align: center;
+	color: yellow ;
+	border: 2px solid green ; 
+	border-radius: 60px ;
+	width : 50% ;
+	margin-left : 25%;
+	margin-right : 35%;
+	padding : 3% ;
+
+
+}
+
