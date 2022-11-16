@@ -1,0 +1,29 @@
+body {
+	background-color: black;
+
+}
+h1,h2 {
+	color: blue;
+	font-family: verdana;
+	font-size: 1em;
+}
+
+div {
+	background-color: violet;
+	border: 2px solid white;
+	border-radius: 8px;
+	padding: 1.5%;
+	text-align: justify;
+	margin: 1.5%;
+
+}
+p {
+	color: white;
+	font-family: arial;
+}
+.d1 {
+	background-color: grey;
+}
+.d2	 {
+	background-color: skyblue;
+}
