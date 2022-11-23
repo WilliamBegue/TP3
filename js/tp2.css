@@ -1,0 +1,29 @@
+button {
+    width: auto;
+    color: cornflowerblue;
+    background-color: blue;
+    
+}
+div {
+    text-align: center;
+    
+}
+button:hover {
+    color:rgb(251, 255, 44);
+    background-color: rgb(170, 28, 253);
+    border: 2px solid rgb(240, 35, 35);
+    color: black;
+}
+body {
+    background-color: chocolate;
+}
+table {
+    border: 2px solid black;
+}
+.divdeux {
+    width: auto;
+    color: antiquewhite;
+}
+h2 {
+    text-align: center;
+}

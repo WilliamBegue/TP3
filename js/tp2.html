@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tp2.css">
+    <script src="tp1.js"></script>
+</head>
+<body>
+    <h1> La deuxieme calculatrice  </h1>
+    <div>
+     <table border="1"> 
+        <tr> 
+           <td colspan="3"><input id="output"/></td> 
+           <td><button onclick="effacer()">c</button></td> 
+        </tr> 
+        <tr> 
+           <td><button onclick="afficher('1')">1</button></td> 
+           <td><button onclick="afficher('2')">2</button></td> 
+           <td><button onclick="afficher('3')">3</button></td> 
+           <td><button onclick="afficher('+')">+</button></td> 
+        </tr> 
+        <tr> 
+           <td><button onclick="afficher('4')">4</button></td> 
+           <td><button onclick="afficher('5')">5</button></td> 
+           <td><button onclick="afficher('6')">6</button></td> 
+           <td><button onclick="afficher('-')">-</button></td> 
+        </tr> 
+        <tr> 
+           <td><button onclick="afficher('7')">7</button></td> 
+           <td><button onclick="afficher('8')">8</button></td> 
+           <td><button onclick="afficher('9')">9</button></td> 
+           <td><button onclick="afficher('*')">*</button></td> 
+        </tr> 
+        <tr>
+           <td><button onclick="afficher('.')">.</button></td> 
+           <td><button onclick="afficher('0')">0</button></td> 
+           <td><button onclick="calculer()">=</button></td> 
+           <td><button onclick="afficher('/')">/</button></td> 
+        </tr> 
+     </table>
+    </div>
+    <h2> Ma calculatrice </h2>
+    <div class="deux">
+        <input type="text" name="t1" id="t1">
+        <input type="text" name="t2" id="t2">
+        <input type="text" name="t3" id="t3">
+        <button onclick="somme()"> + </button>
+        <button onclick="multiplication()"> * </button>
+        <button onclick="soustraction()"> - </button>
+        <button onclick="division()"> / </button>
+        <br>
+        <button onclick="pariter()"> Parite </button>
+        <br>
+        <button onclick="permuter()"> permuter </button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+button {
+    background-color: red;
+    text-align: center;
+    width: 150px;
+    padding: 10px 24px;
+    border-radius: 20px;
+    margin-top: 3px;
+    border: 2px solid green;
+}
+button:hover {
+    color:lightblue;
+    background-color: green;
+    border: 2px solid grey;
+}
+body {
+    background-color: gold;   
+}
+h1 {
+    text-align: center;
+    color: aqua;
+}
+div {
+	border: 2px solid black ; 
+	border-radius: 50px ;
+	width : 50% ;
+	margin-left : 25%;
+	margin-right : 35%;
+	padding : 3% ;
+}
